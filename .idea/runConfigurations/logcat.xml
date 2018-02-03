@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="logcat" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="true">
+    <module name="logcat" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <go_parameters value="-i" />
+    <parameters value="$PROJECT_DIR$/../../../project_git/dezhouweb/sLog/20180203/s_action_log_06.log" />
+    <kind value="PACKAGE" />
+    <filePath value="$PROJECT_DIR$/" />
+    <package value="logcat" />
+    <directory value="$PROJECT_DIR$/" />
+    <output_directory value="$PROJECT_DIR$/../../bin" />
+    <method />
+  </configuration>
+</component>
