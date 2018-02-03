@@ -3,7 +3,7 @@
     <module name="logcat" />
     <working_directory value="$PROJECT_DIR$/" />
     <go_parameters value="-i" />
-    <parameters value="$PROJECT_DIR$/../../../project_git/dezhouweb/sLog/20180203/s_action_log_06.log" />
+    <parameters value="$PROJECT_DIR$/../../../project_git/dezhouweb/sLog/20180203/s_action_log_10.log" />
     <kind value="PACKAGE" />
     <filePath value="$PROJECT_DIR$/" />
     <package value="logcat" />
