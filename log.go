@@ -43,7 +43,7 @@ func logFormatAndOutPut(file_path string) (int, error) {
 			break
 		}
 		line = strings.TrimRight(line, "\n")
-		var json_obj = make(map[string]interface{})
+		var json_obj []interface{}
 		err = json.Unmarshal([] byte(line), &json_obj)
 		if (err == nil) {
 			var json_str, _ = json.MarshalIndent(json_obj, "", "\t")
